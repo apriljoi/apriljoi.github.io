@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=BioRhyme+Expanded');
+@import url('https://fonts.googleapis.com/css?family=El+Messiri');
 
 /*
 	Big Picture by HTML5 UP
@@ -475,7 +475,7 @@
 /* Type */
 
 	body, input, textarea, select {
-        font-family: 'BioRhyme Expanded', serif; /*changes font for everything*/
+        font-family:'El Messiri', sans-serif; /*changes font for everything*/
 		font-weight: 300;
 		font-size: 10pt;
 		line-height: 1.75em;
@@ -1916,10 +1916,10 @@
 			background-attachment: scroll !important;
 		}
 
-		@media screen and (max-width: 1920px) {
+		@media screen and (max-width: 1975px) {
 
 			.main.style2 .content {
-				width: 40%;
+				width: 48%;
 			}
 
 		}
