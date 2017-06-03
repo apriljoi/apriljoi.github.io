@@ -563,7 +563,7 @@
 		-webkit-transition: color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out;
-		color: #98c593;
+		color: #39454B; /*this changes the color of the text for the gallery thumbnails*/
 	}
 
 	sub {
@@ -1123,6 +1123,7 @@
 			cursor: default;
 			z-index: 1;
 			font-size: 0.9em;
+            
 		}
 
 		.poptrox-popup .nav-next,
@@ -1141,16 +1142,16 @@
 			-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 		}
 
-		.poptrox-popup .nav-next:before,
-		.poptrox-popup .nav-previous:before {
-			content: '';
-			position: absolute;
-			width: 96px;
-			height: 64px;
-			background: url("images/poptrox-nav.svg");
-			top: calc(50% - 1.5em);
-			margin: -32px 0 0 0;
-		}
+            .poptrox-popup .nav-next:before,
+            .poptrox-popup .nav-previous:before {
+                content: '';
+                position: absolute;
+                width: 96px;
+                height: 64px;
+                background: url("images/poptrox-nav.svg");
+                top: calc(50% - 1.5em);
+                margin: -32px 0 0 0;
+            }
 
 		.poptrox-popup:hover .nav-next,
 		.poptrox-popup:hover .nav-previous {
@@ -1283,10 +1284,10 @@
 			opacity: 1.0;
 		}
 
-			.gallery article .image {
-				margin: 0;
-				display: block;
-			}
+            .gallery article .image {
+                margin: 0;
+                display: block;
+            }
 
 			.gallery article:nth-last-child(1n) {
 				-moz-transition-delay: 0.05s;
